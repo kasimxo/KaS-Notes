@@ -32,3 +32,9 @@ Commit migrations
 Show migrations
 > python manage.py showmigrations
 
+Generate archivo requirements.txt
+> pip freeze > requirements.txt
+
+Install dependencies from requirements.txt
+> pip install -r requirements.txt
+
