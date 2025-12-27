@@ -9,7 +9,11 @@ Create a venv
 > python3 -m venv venv
 
 Activate said venv
-> .\venv\Scripts\Activate.ps1
+
+| Windows | Linux |
+| -- | -- |
+| .\venv\Scripts\Activate.ps1 | source ./venv/bin/activate | 
+
 
 Install Django in the venv
 > pip install django
